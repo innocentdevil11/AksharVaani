@@ -1,0 +1,68 @@
+# ─── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ─── Virtual Environment ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+
+# ─── IDE ─────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ──────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Environment & Secrets ───────────────────────────────────────────────────
+.env
+*.key
+
+# ─── Data (keep samples, ignore bulk data) ───────────────────────────────────
+data/raw/
+data/processed/
+*.wav
+*.mp3
+*.m4a
+*.mpeg
+*.dat
+!data/samples/**
+
+# ─── Model Weights & Caches ─────────────────────────────────────────────────
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+models/
+
+# ─── Outputs & Temp ─────────────────────────────────────────────────────────
+outputs/
+outputs_spectral/
+denoised/
+cleaned/
+extraction_results/
+benchmark_results/
+batch_test_results*/
+*.json.bak
+temp_*.wav
+_chunk_*.wav
+
+# ─── Jupyter ─────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── Misc ────────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.unknown
