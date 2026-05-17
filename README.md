@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="docs/assets/banner.png" alt="AksharVaani Banner" width="100%"/>
-</p>
-
 <h1 align="center">AksharVaani — अक्षरवाणी</h1>
 
 <p align="center">
@@ -231,7 +227,6 @@ AksharVaani/
 ├── requirements.txt
 ├── .env.example                  # API key template (no secrets!)
 ├── .gitignore
-├── CONTRIBUTING.md
 ├── LICENSE                       # MIT
 └── README.md
 ```
@@ -251,7 +246,7 @@ AksharVaani/
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/AksharVaani.git
+git clone https://github.com/innocentdevil11/AksharVaani.git
 cd AksharVaani
 
 # Virtual environment
